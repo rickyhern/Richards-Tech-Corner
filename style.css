@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'JetBrainsMono Bold';
+    src: url('Fonts//JetBrainsMono/fonts/ttf/JetBrainsMono-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JetBrainsMono Regular';
+    src: url('Fonts//JetBrainsMono/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'JetBrainsMono Italic';
+    src: url('Fonts//JetBrainsMono/fonts/ttf/JetBrainsMono-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Tourney';
+    src: url('Fonts//Tourney//static/Tourney-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'iceland';
+    src: url('Fonts//Iceland/Iceland-Regular.ttf') format('truetype');
+}
+
+/* Custom Typography Classes */
+.font-jetbrains-bold { font-family: 'JetBrainsMono Bold', sans-serif; }
+.font-jetbrains-regular { font-family: 'JetBrainsMono Regular', sans-serif; }
+.font-jetbrains-italic { font-family: 'JetBrainsMono Italic', sans-serif; }
+.font-tourney { font-family: 'Tourney', sans-serif; }
+.font-iceland { font-family: 'iceland', sans-serif; }
+
+body {
+    font-family: 'JetBrainsMono Regular', sans-serif;
+    font-size: 1em;
+    background-color: #f0f2f5;
+}
+
+/* Header & Navigation Overrides */
+.custom-navbar {
+    background-color: #540912;
+}
+
+.brand-title {
+    font-family: 'Tourney', sans-serif;
+    font-size: 28px;
+}
+
+.nav-links {
+    font-family: 'iceland', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Custom Component Styling */
+.service-card-border {
+    border: 4px solid maroon;
+    border-radius: 0;
+}
+
+footer {
+    font-family: 'JetBrainsMono Italic', sans-serif;
+    background-color: #1c2833;
+    font-size: 0.9em;
+    color: white;
+}
